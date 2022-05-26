@@ -36,7 +36,7 @@ Partial Class LoginForm
         Me.Button1.Location = New System.Drawing.Point(427, 283)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(84, 23)
-        Me.Button1.TabIndex = 27
+        Me.Button1.TabIndex = 5
         Me.Button1.Text = "Go back"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -45,7 +45,7 @@ Partial Class LoginForm
         Me.LoginButton.Location = New System.Drawing.Point(295, 283)
         Me.LoginButton.Name = "LoginButton"
         Me.LoginButton.Size = New System.Drawing.Size(84, 23)
-        Me.LoginButton.TabIndex = 26
+        Me.LoginButton.TabIndex = 3
         Me.LoginButton.Text = "Login"
         Me.LoginButton.UseVisualStyleBackColor = True
         '
@@ -64,7 +64,7 @@ Partial Class LoginForm
         Me.PasswordTextBox.Location = New System.Drawing.Point(295, 238)
         Me.PasswordTextBox.Name = "PasswordTextBox"
         Me.PasswordTextBox.Size = New System.Drawing.Size(216, 23)
-        Me.PasswordTextBox.TabIndex = 24
+        Me.PasswordTextBox.TabIndex = 2
         '
         'LoginTextBoxLabel
         '
@@ -81,7 +81,7 @@ Partial Class LoginForm
         Me.RollNoTextBox.Location = New System.Drawing.Point(295, 172)
         Me.RollNoTextBox.Name = "RollNoTextBox"
         Me.RollNoTextBox.Size = New System.Drawing.Size(216, 23)
-        Me.RollNoTextBox.TabIndex = 22
+        Me.RollNoTextBox.TabIndex = 1
         '
         'LoginHeadingLabel
         '

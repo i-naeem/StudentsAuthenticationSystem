@@ -38,7 +38,7 @@ Partial Class SignupForm
         Me.Button1.Location = New System.Drawing.Point(427, 327)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(84, 23)
-        Me.Button1.TabIndex = 18
+        Me.Button1.TabIndex = 5
         Me.Button1.Text = "Go back"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -47,7 +47,7 @@ Partial Class SignupForm
         Me.SignupButton.Location = New System.Drawing.Point(295, 327)
         Me.SignupButton.Name = "SignupButton"
         Me.SignupButton.Size = New System.Drawing.Size(84, 23)
-        Me.SignupButton.TabIndex = 17
+        Me.SignupButton.TabIndex = 4
         Me.SignupButton.Text = "Signup"
         Me.SignupButton.UseVisualStyleBackColor = True
         '
@@ -66,7 +66,7 @@ Partial Class SignupForm
         Me.PasswordTextBox.Location = New System.Drawing.Point(295, 282)
         Me.PasswordTextBox.Name = "PasswordTextBox"
         Me.PasswordTextBox.Size = New System.Drawing.Size(216, 23)
-        Me.PasswordTextBox.TabIndex = 15
+        Me.PasswordTextBox.TabIndex = 3
         '
         'LoginTextBoxLabel
         '
@@ -83,7 +83,7 @@ Partial Class SignupForm
         Me.RollNoTextBox.Location = New System.Drawing.Point(294, 157)
         Me.RollNoTextBox.Name = "RollNoTextBox"
         Me.RollNoTextBox.Size = New System.Drawing.Size(216, 23)
-        Me.RollNoTextBox.TabIndex = 13
+        Me.RollNoTextBox.TabIndex = 1
         '
         'SignupHeadingLabel
         '
@@ -110,7 +110,7 @@ Partial Class SignupForm
         Me.FullNameTextBox.Location = New System.Drawing.Point(294, 217)
         Me.FullNameTextBox.Name = "FullNameTextBox"
         Me.FullNameTextBox.Size = New System.Drawing.Size(216, 23)
-        Me.FullNameTextBox.TabIndex = 19
+        Me.FullNameTextBox.TabIndex = 2
         '
         'SignupForm
         '
