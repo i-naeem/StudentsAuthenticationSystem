@@ -65,7 +65,7 @@ Partial Class DashboardForm
         Me.Controls.Add(Me.SignoutButton)
         Me.Controls.Add(Me.FullName)
         Me.Name = "DashboardForm"
-        Me.Text = "DashboardForm"
+        Me.Text = "Dashboard - Students Authentication System"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

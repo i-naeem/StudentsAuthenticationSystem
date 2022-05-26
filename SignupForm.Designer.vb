@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class SingupForm
+Partial Class SignupForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -113,7 +113,7 @@ Partial Class SingupForm
         Me.FullNameTextBox.Size = New System.Drawing.Size(216, 23)
         Me.FullNameTextBox.TabIndex = 19
         '
-        'SingupForm
+        'SignupForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -127,8 +127,8 @@ Partial Class SingupForm
         Me.Controls.Add(Me.LoginTextBoxLabel)
         Me.Controls.Add(Me.RollNoTextBox)
         Me.Controls.Add(Me.LoginHeadingLabel)
-        Me.Name = "SingupForm"
-        Me.Text = "SingupForm"
+        Me.Name = "SignupForm"
+        Me.Text = "Singup - Students Authentication System"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

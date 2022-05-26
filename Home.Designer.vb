@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Home
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -55,7 +55,7 @@ Partial Class Form1
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Students Authentication System"
         '
-        'Form1
+        'Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -63,8 +63,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.SignupAnchorButton)
         Me.Controls.Add(Me.LoginAnchorButton)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "Home"
+        Me.Text = "Students Authentication System"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

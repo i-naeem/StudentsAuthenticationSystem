@@ -107,7 +107,7 @@ Partial Class GoBackButton
         Me.Controls.Add(Me.RollNoTextBox)
         Me.Controls.Add(Me.LoginHeadingLabel)
         Me.Name = "GoBackButton"
-        Me.Text = "LoginForm"
+        Me.Text = "Login - Students Authentication System"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
