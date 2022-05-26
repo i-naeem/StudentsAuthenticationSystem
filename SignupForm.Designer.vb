@@ -28,7 +28,7 @@ Partial Class SignupForm
         Me.PasswordTextBox = New System.Windows.Forms.TextBox()
         Me.LoginTextBoxLabel = New System.Windows.Forms.Label()
         Me.RollNoTextBox = New System.Windows.Forms.TextBox()
-        Me.LoginHeadingLabel = New System.Windows.Forms.Label()
+        Me.SignupHeadingLabel = New System.Windows.Forms.Label()
         Me.FullNameTextBoxLabel = New System.Windows.Forms.Label()
         Me.FullNameTextBox = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
@@ -86,15 +86,15 @@ Partial Class SignupForm
         Me.RollNoTextBox.Size = New System.Drawing.Size(216, 23)
         Me.RollNoTextBox.TabIndex = 13
         '
-        'LoginHeadingLabel
+        'SignupHeadingLabel
         '
-        Me.LoginHeadingLabel.AutoSize = True
-        Me.LoginHeadingLabel.Font = New System.Drawing.Font("Fira Code", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.LoginHeadingLabel.Location = New System.Drawing.Point(328, 70)
-        Me.LoginHeadingLabel.Name = "LoginHeadingLabel"
-        Me.LoginHeadingLabel.Size = New System.Drawing.Size(144, 41)
-        Me.LoginHeadingLabel.TabIndex = 12
-        Me.LoginHeadingLabel.Text = "Signup"
+        Me.SignupHeadingLabel.AutoSize = True
+        Me.SignupHeadingLabel.Font = New System.Drawing.Font("Fira Code", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.SignupHeadingLabel.Location = New System.Drawing.Point(328, 70)
+        Me.SignupHeadingLabel.Name = "SignupHeadingLabel"
+        Me.SignupHeadingLabel.Size = New System.Drawing.Size(144, 41)
+        Me.SignupHeadingLabel.TabIndex = 12
+        Me.SignupHeadingLabel.Text = "Signup"
         '
         'FullNameTextBoxLabel
         '
@@ -126,7 +126,7 @@ Partial Class SignupForm
         Me.Controls.Add(Me.PasswordTextBox)
         Me.Controls.Add(Me.LoginTextBoxLabel)
         Me.Controls.Add(Me.RollNoTextBox)
-        Me.Controls.Add(Me.LoginHeadingLabel)
+        Me.Controls.Add(Me.SignupHeadingLabel)
         Me.Name = "SignupForm"
         Me.Text = "Singup - Students Authentication System"
         Me.ResumeLayout(False)
@@ -140,7 +140,7 @@ Partial Class SignupForm
     Friend WithEvents PasswordTextBox As TextBox
     Friend WithEvents LoginTextBoxLabel As Label
     Friend WithEvents RollNoTextBox As TextBox
-    Friend WithEvents LoginHeadingLabel As Label
+    Friend WithEvents SignupHeadingLabel As Label
     Friend WithEvents FullNameTextBoxLabel As Label
     Friend WithEvents FullNameTextBox As TextBox
 End Class
