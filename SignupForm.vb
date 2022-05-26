@@ -12,7 +12,9 @@
         fname = FullNameTextBox.Text
         password = PasswordTextBox.Text
 
-        MessageBox.Show("Roll No: " + Convert.ToString(rollNo) + " Full Name: " + fname + " Password: " + password)
+        Dim query As String = String.Format("INSERT INTO StudentsTable(rollNo, fullName, password) VALUES({0}, {1}, {2})", rollNo, fname, password)
+        MessageBox.Show(query)
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
