@@ -4,4 +4,8 @@
         LoginForm.Show()
     End Sub
 
+    Private Sub SignupAnchorButton_Click(sender As Object, e As EventArgs) Handles SignupAnchorButton.Click
+        Me.Hide()
+        SignupForm.Show()
+    End Sub
 End Class

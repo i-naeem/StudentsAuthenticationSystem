@@ -67,7 +67,6 @@ Partial Class SignupForm
         Me.PasswordTextBox.Name = "PasswordTextBox"
         Me.PasswordTextBox.Size = New System.Drawing.Size(216, 23)
         Me.PasswordTextBox.TabIndex = 15
-        Me.PasswordTextBox.Visible = False
         '
         'LoginTextBoxLabel
         '
