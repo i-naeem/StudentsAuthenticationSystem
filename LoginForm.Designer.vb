@@ -22,16 +22,31 @@ Partial Class LoginForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.LoginHeadingLabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
+        '
+        'LoginHeadingLabel
+        '
+        Me.LoginHeadingLabel.AutoSize = True
+        Me.LoginHeadingLabel.Font = New System.Drawing.Font("Fira Code", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.LoginHeadingLabel.Location = New System.Drawing.Point(317, 76)
+        Me.LoginHeadingLabel.Name = "LoginHeadingLabel"
+        Me.LoginHeadingLabel.Size = New System.Drawing.Size(123, 41)
+        Me.LoginHeadingLabel.TabIndex = 4
+        Me.LoginHeadingLabel.Text = "Login"
         '
         'LoginForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.LoginHeadingLabel)
         Me.Name = "LoginForm"
         Me.Text = "LoginForm"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
+
+    Friend WithEvents LoginHeadingLabel As Label
 End Class
