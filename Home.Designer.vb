@@ -32,7 +32,7 @@ Partial Class Home
         Me.LoginAnchorButton.Location = New System.Drawing.Point(303, 163)
         Me.LoginAnchorButton.Name = "LoginAnchorButton"
         Me.LoginAnchorButton.Size = New System.Drawing.Size(131, 50)
-        Me.LoginAnchorButton.TabIndex = 0
+        Me.LoginAnchorButton.TabIndex = 1
         Me.LoginAnchorButton.Text = "Login"
         Me.LoginAnchorButton.UseVisualStyleBackColor = True
         '
@@ -41,7 +41,7 @@ Partial Class Home
         Me.SignupAnchorButton.Location = New System.Drawing.Point(303, 244)
         Me.SignupAnchorButton.Name = "SignupAnchorButton"
         Me.SignupAnchorButton.Size = New System.Drawing.Size(131, 50)
-        Me.SignupAnchorButton.TabIndex = 1
+        Me.SignupAnchorButton.TabIndex = 2
         Me.SignupAnchorButton.Text = "Sign up"
         Me.SignupAnchorButton.UseVisualStyleBackColor = True
         '
