@@ -1,3 +1,3 @@
-﻿Public Class LoginForm
+﻿Public Class GoBackButton
 
 End Class
